@@ -12,7 +12,7 @@ function MyComponent({name,age} ) {
 // Parent component where you pass the object as a prop to MyComponent
 function Home(){
   const data = 
-    { name: 'Alice', age: 30 }
+    { name: 'Deepak', age: 22 }
   return <MyComponent myObject={data} />;
 };
 

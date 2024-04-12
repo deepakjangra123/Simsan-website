@@ -35,7 +35,7 @@ export default function Company() {
 
   return (
     <>
-      <form onSubmit={A}>
+      <form onSubmit={A}> 
         <MDBRow className="mb-4">
           <MDBCol>
             
