@@ -1,0 +1,12 @@
+@import "mdb-react-ui-kit/dist/css/mdb.min.css";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+.gradient-custom-4 {
+  /* fallback for old browsers */
+  background: #b7851a;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgb(117, 50, 12), rgb(220, 244, 143));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgb(231, 37, 19), rgb(236, 196, 37))
+}

@@ -49,6 +49,16 @@ function Header() {
                     <i className="fab fa-dribbble" />
                   </a>
                 </li>
+                <li>
+                  <a className=" social-icon" href="#" title="Dribbble">
+                    <i className="fab fa-dribbble" />
+                  </a>
+                </li>
+                <li>
+                  <a className="dribbble social-icon" href="#" title="Dribbble">
+                    <i className="fab fa-dribbble" />
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
@@ -77,7 +87,7 @@ function Header() {
                     style={{ display: "none" }}
                   >
                     <li className="nav-item active menu-item-has-children">
-                      <Link className="nav-link" to="/">
+                      <Link className="nav-link" to="home">
                         Home
                       </Link>
                     
@@ -105,9 +115,14 @@ function Header() {
                       </Link>
                       
                     </li>
-                    <li className="nav-item nav-last">
+                    <li className="nav-item menu-item-has-children">
                       <Link className="nav-link" to="Contact">
                         Contact
+                      </Link>
+                    </li>
+                    <li className="nav-item menu-item-has-children">
+                      <Link className="nav-link" to="/add_user">
+                        Add user
                       </Link>
                     </li>
                     <a href="" className="get-btn">
