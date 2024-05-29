@@ -13,7 +13,7 @@ const Products = () => {
       discount:100
     },
     {
-      name:"Motorola",
+      name:"Nokia",
       price:562 , 
       srce : "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/new/img(4).webp",
       rating:552,
